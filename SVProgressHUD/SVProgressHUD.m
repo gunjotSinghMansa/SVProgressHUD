@@ -9,6 +9,8 @@
 #error SVProgressHUD is ARC only. Either turn on ARC for the project or use -fobjc-arc flag
 #endif
 
+#define SV_APP_EXTENSIONS
+
 #import "SVProgressHUD.h"
 #import "SVIndefiniteAnimatedView.h"
 #import "SVProgressAnimatedView.h"
